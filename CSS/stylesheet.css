@@ -23,10 +23,7 @@ h4{
     font-style: oblique;
 }
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    border-radius: 50%;
   }
 
 
