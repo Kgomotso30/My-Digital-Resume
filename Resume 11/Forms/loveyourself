@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+
+<h2>Survey about You</h2>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Gender</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Age</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Occupation</label>
+  <input type="text" id="lname" name="lname">
+  
+  <h2>Personality</h2>
+  
+  <label for="lname">What animal do you associate with?</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Think of a colour</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Think of a place</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Do you like people?</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Do you like to be indoors or outdoors?</label>
+  <input type="text" id="lname" name="lname">
+  
+  <h2>Ambitions</h2>
+  
+  <label for="lname">What is your passion?</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">What are your hobbies?</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">What would you like to achieve in 5 years?</label>
+  <input type="text" id="lname" name="lname">
+  
+  <h2>Note to Self</h2>
+  
+  <label for="lname">Name 3 things that you appreciate about yourself</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Name 3 things that you have overcome in your life</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Name 3 things that you love about your body</label>
+  <input type="text" id="lname" name="lname">
+  <label for="lname">Write a love letter to yourself in one sentence</label>
+  <input type="text" id="lname" name="lname">
+  
+  <h2>Carry these notes with you Always!</h2>
+</form>
+
+</body>
+</html>
