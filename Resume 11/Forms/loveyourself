@@ -58,8 +58,20 @@ input[type=text] {
   <input type="text" id="lname" name="lname">
   <label for="lname">Write a love letter to yourself in one sentence</label>
   <input type="text" id="lname" name="lname">
+
+  <div class="container">
+    <h2>Click on your mood for the day</h2>
+    <button type="button" class="btn">Sad</button>
+    <button type="button" class="btn btn-happy">Happy</button>
+    <button type="button" class="btn btn-Irritated">Irritated</button>
+    <button type="button" class="btn btn-Calm">Calm</button>
+    <button type="button" class="btn btn-Indifferent">Indifferent</button>
+    <button type="button" class="btn btn-Angry">Angry</button>
+    <button type="button" class="btn btn-Excited">Excited</button>
+    <button type="button" class="btn btn-longely">Longely</button> 
+    
+    <h2>Complete this form everyday to keep track and improve yourself!</h2>
   
-  <h2>Carry these notes with you Always!</h2>
 </form>
 
 </body>
