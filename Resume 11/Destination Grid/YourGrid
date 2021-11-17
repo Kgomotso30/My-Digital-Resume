@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  background-color: yellow;
+  padding: 40px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 7px solid black;
+  text-align: center;
+  font-size: 20px;
+  font-style:italic;
+}
+</style>
+</head>
+<body>
+
+<h1>Your Destination Grid!!!</h1>
+
+<p>Choose a number to rate your confidence. The highest number is the highest confidence you have. </p>
+
+<div class="grid-container">
+  <div>1 - Algeria</div>
+  <div>2- South Africa</div>
+  <div>3- Morocco</div>  
+  <div>4- Zimbabwe</div>
+  <div>5- Brazil</div>
+  <div>6- Australia</div>
+  <div>7- Egypt</div>
+  <div>8- India</div>
+</div>
+
+<p>The country that is attched to the number chosen you have chosen is the the country you will visit in two months.</p>
+
+</body>
+</html>
