@@ -1,51 +1,73 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style> 
-div {
-  width: 300px;
-  height: 150px;
-  background-color: purple;
-  font-weight: bold;
-  position: relative;
-  animation: love 5s infinite;
-  transform: rotateZ(90deg);
-  color: grey;
-  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
-  box-shadow: 10px 10px 5px 12px orange
- 
- 
+    <style>
+        div {
+            width: 300px;
+            height: 150px;
+            background-color: purple;
+            font-weight: bold;
+            position: relative;
+            animation: love 5s infinite;
+            transform: rotateZ(90deg);
+            color: grey;
+            text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+            box-shadow: 10px 10px 5px 12px orange
+        }
 
-  
-}
+        #div1 {
+            animation-timing-function: linear;
+            background-color: green;
+        }
 
-#div1 {animation-timing-function: linear;background-color: green;}
-#div2 {animation-timing-function: ease;background-color: purple;}
-#div3 {animation-timing-function: ease-in;background-color: yellow;}
-#div4 {animation-timing-function: ease-out;background-color: orange;}
-#div5 {animation-timing-function: ease-in-out;background-color: red;}
+        #div2 {
+            animation-timing-function: ease;
+            background-color: purple;
+        }
 
-  
- 
-@keyframes love {
-  from {left: 0px;}
-  to {left: 400px;}
-  
-}
-</style>
+        #div3 {
+            animation-timing-function: ease-in;
+            background-color: yellow;
+        }
+
+        #div4 {
+            animation-timing-function: ease-out;
+            background-color: orange;
+        }
+
+        #div5 {
+            animation-timing-function: ease-in-out;
+            background-color: red;
+        }
+
+
+
+        @keyframes love {
+            from {
+                left: 0px;
+            }
+
+            to {
+                left: 400px;
+            }
+
+        }
+    </style>
 </head>
+
 <body>
 
-<h1>Truth about Self</h1>
+    <h1>Truth about Self</h1>
 
-<p>To love and except yourself, is one of the most beautiful things to do. </p>
+    <p>To love and except yourself, is one of the most beautiful things to do. </p>
 
-<div id="div1">Love yourself</div>
-<div id="div2">Love yourself</div>
-<div id="div3">Love yourself</div>
-<div id="div4">Love yourself</div>
-<div id="div5">Love yourself</div>
+    <div id="div1">Love yourself</div>
+    <div id="div2">Love yourself</div>
+    <div id="div3">Love yourself</div>
+    <div id="div4">Love yourself</div>
+    <div id="div5">Love yourself</div>
 
 </body>
-</html>
 
+</html>
