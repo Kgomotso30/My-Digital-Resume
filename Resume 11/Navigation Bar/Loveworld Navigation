@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="heart.jpg" alt="Love" style="width:40px;">
+        </a>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Animation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">LoveyourselfForm</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">YourGrid</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kgomotso Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kgomotso Media Queries</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid">
+
+        <h3>Kgomotso's Love World</h3>
+        <img src="heart.jpg" alt="Love" style="width:40px;">
+        <p>Welcome to Kgomotso's love world. Loving yourself is the most fundemental things to do. To get you started on
+            your love world, take a look at our animation, fill in your fun love yourself form and grid. Hope you have
+            your best fun!</p>
+
+    </div>
+
+</body>
+
+</html>
