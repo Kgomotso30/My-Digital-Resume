@@ -8,7 +8,8 @@
       padding: 12px 20px;
       margin: 8px 0;
       box-sizing: border-box;
-    background-image: src="Images/smollan.jpg" 
+    background-image: src="Images/smollan.jpg" alt="smollan picture"
+  
     }
   </style>
 </head>
